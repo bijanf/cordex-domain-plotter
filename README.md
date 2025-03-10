@@ -1,6 +1,6 @@
 # CORDEX Domain Plotter
 
-![CI](https://github.com/bijanf/cordex-domain-plotter/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/bijanf/cordex-domain-plotter/actions/workflows/lint.yml/badge.svg)
 
 This script plots a CORDEX domain and its bounding box on a map. It saves the map as a  PNG file and prints the coordinates of the bounding box corners.
 
