@@ -19,5 +19,9 @@ python plot_domain.py EUR-11
 ```
 ## Example Output
 
+```bash 
+['LL: (lon = 1.62,\n lat = 44.85)', 'UL: (lon = 1.62,\n lat = 56.24)', 'UR: (lon = 18.28,\n lat = 56.24)', 'LR: (lon = 18.28,\n lat = 44.85)']
+```
+
 ![output](CEU-0275_domain_map.png)
 
