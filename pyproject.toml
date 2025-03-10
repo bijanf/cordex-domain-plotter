@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cordex-domain-plotter"
+version = "0.1.0"
+description = "Plot CORDEX domains and bounding boxes."
+authors = [
+    { name = "Bijan Fallah", email = "bijan.fallah@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "cartopy",
+    "py-cordex",
+    "pyproj",
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[project.scripts]
+plot-domain = "plot_domain:main"
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py310, lint
+isolated_build = True
+
+[testenv]
+deps =
+    pytest
+commands =
+    pytest tests/
+
+[testenv:lint]
+deps =
+    black
+    isort
+commands =
+    black --check .
+    isort --check .
+"""

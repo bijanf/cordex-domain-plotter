@@ -1,0 +1,10 @@
+LICENSE
+README.md
+plot_domain.py
+pyproject.toml
+cordex_domain_plotter.egg-info/PKG-INFO
+cordex_domain_plotter.egg-info/SOURCES.txt
+cordex_domain_plotter.egg-info/dependency_links.txt
+cordex_domain_plotter.egg-info/entry_points.txt
+cordex_domain_plotter.egg-info/requires.txt
+cordex_domain_plotter.egg-info/top_level.txt
