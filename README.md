@@ -8,7 +8,7 @@ This script plots a CORDEX domain and its bounding box on a map. It saves the ma
 
 1. Install dependencies:
    ```bash
-   pip install numpy matplotlib cartopy py-cordex pyproj
+   pip install numpy matplotlib cartopy py-cordex pyproj cdo scipy
    ```
 2. Run the script:
     ```bash 
